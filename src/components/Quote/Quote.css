@@ -1,0 +1,41 @@
+.wrapper {
+    background-color: #fff;
+    border-radius: 5px;
+    position: relative;
+    height: 100%;
+    width: 450px;
+    padding: 65px;
+    overflow: auto;
+
+}
+
+#quote-box {
+    width: 450px;
+}
+
+.quote-text {
+    text-align: center;
+    font-size: 2em;
+}
+
+.quote-author {
+    padding-top: 20px;
+    font-size: 1em;
+    text-align: right;
+}
+
+.new {
+    height: 38px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 0.85em;
+    padding: 8px 18px 6px 18px;
+    margin-top: 30px;
+    opacity: 1;
+    float: right;
+}
+
+.new:hover {
+    opacity: 0.9;
+}
